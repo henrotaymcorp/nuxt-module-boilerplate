@@ -2,15 +2,11 @@
 
 nuxt-module-boilerplate
 
-## Installation
-
-```shell
-yarn add @henrotaymcorp/nuxt-module-boilerplate
-```
-
 ## Usage
 
-<!-- @TODO -->
+```shell
+npx @henrotaymcorp/nuxt-module-boilerplate@latest
+```
 
 ## Development
 
