@@ -10,7 +10,7 @@ export interface ModuleOptions {}
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: "{{{{npmOrganizationName}}}}/{{{{moduleName}}}}",
+    name: "@{{{{npmOrganizationName}}}}/{{{{moduleName}}}}",
     configKey: "{{{{moduleConfigKey}}}}",
   },
   defaults: {},

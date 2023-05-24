@@ -1,7 +1,7 @@
 {
   "name": "@{{{{npmOrganizationName}}}}/{{{{moduleName}}}}",
   "version": "0.0.1",
-  "description": "{{{[description}}}}",
+  "description": "{{{{description}}}}",
   "files": [
     "dist"
   ],

@@ -5,15 +5,15 @@
 ## Installation
 
 ```shell
-yarn add {{{{npmOrganizationName}}}}/{{{{moduleName}}}}
+yarn add @{{{{npmOrganizationName}}}}/{{{{moduleName}}}}
 ```
 
-Add `{{{{npmOrganizationName}}}}/{{{{moduleName}}}}` to the `modules` section of `nuxt.config.ts`
+Add `@{{{{npmOrganizationName}}}}/{{{{moduleName}}}}` to the `modules` section of `nuxt.config.ts`
 
 ```typescript
 export default defineNuxtConfig({
   modules: [
-    '{{{{npmOrganizationName}}}}/{{{{moduleName}}}}'
+    '@{{{{npmOrganizationName}}}}/{{{{moduleName}}}}'
   ],
   {{{{moduleConfigKey}}}}: {
     // @TODO
@@ -21,7 +21,7 @@ export default defineNuxtConfig({
 })
 ```
 
-That's it! You can now use {{{{moduleName}}}} in your Nuxt app ✨
+That's it! You can now use `{{{{moduleName}}}}` in your Nuxt app ✨
 
 ## Usage
 
