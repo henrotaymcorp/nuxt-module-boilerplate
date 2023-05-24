@@ -8,6 +8,8 @@ import {
   useSentence,
 } from "@henrotaym/scaffolding-utils";
 
+import { camelCase } from "lodash";
+
 const useStubsPath = usePackageStubsPath(
   "@henrotaymcorp/nuxt-module-boilerplate"
 );
@@ -35,7 +37,11 @@ const useScaffolding = () => {
     lastFolderLocationName
   );
 
-  const moduleConfigKey = usePrompt(`Module nuxt config key`);
+  const camelCaseLastFolderLocationName = camelCase(lastFolderLocationName);
+  const moduleConfigKey = usePrompt(
+    `Module nuxt config key[${camelCaseLastFolderLocationName}]`,
+    camelCaseLastFolderLocationName
+  );
 
   const description = usePrompt(
     `Module description [${lastFolderLocationName}]`,
@@ -52,9 +58,9 @@ const useScaffolding = () => {
     "mathieu.henrotay@gmail.com"
   );
 
-  const appPort = usePrompt(`App docker port [3000]`, "3000");
+  const playgroundPort = usePrompt(`Playground port [3000]`, "3000");
 
-  const websocketPort = usePrompt(`App websocket port [24678]`, "24678");
+  const vitePort = usePrompt(`Playground vite port [24678]`, "24678");
 
   const data = {
     githubOrganizationName,
@@ -64,8 +70,8 @@ const useScaffolding = () => {
     description,
     authorName,
     authorEmail,
-    appPort,
-    websocketPort,
+    playgroundPort,
+    vitePort,
   };
 
   useDisplayJson({ location, ...data });
@@ -83,7 +89,7 @@ const useScaffolding = () => {
   generator.copy(useStubsPath(), location);
 
   useSentence("Successfully scaffolded project ✅");
-  useSentence("Happy coding 🤓🐐");
+  useSentence("Happy coding 🤓");
 };
 
 export default useScaffolding;

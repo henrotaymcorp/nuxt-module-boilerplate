@@ -41,6 +41,7 @@
   "homepage": "https://github.com/henrotaymcorp/nuxt-module-boilerplate#readme",
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
+    "@types/lodash": "^4.14.194",
     "@types/node": "^18.16.3",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
     "@typescript-eslint/parser": "^5.59.2",
@@ -57,6 +58,7 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "dependencies": {
-    "@henrotaym/scaffolding-utils": "^1.1.1"
+    "@henrotaym/scaffolding-utils": "^1.1.1",
+    "lodash": "^4.17.21"
   }
 }
