@@ -26,7 +26,7 @@ const useScaffolding = () => {
   );
 
   const npmOrganizationName = usePrompt(
-    "Github organization name [deegital]",
+    "Npm organization name [deegital]",
     "deegital"
   );
 

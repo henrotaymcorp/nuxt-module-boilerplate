@@ -5,15 +5,15 @@
 ## Installation
 
 ```shell
-yarn add {{{{npmOrganization}}}}/{{{{moduleName}}}}
+yarn add {{{{npmOrganizationName}}}}/{{{{moduleName}}}}
 ```
 
-Add `{{{{npmOrganization}}}}/{{{{moduleName}}}}` to the `modules` section of `nuxt.config.ts`
+Add `{{{{npmOrganizationName}}}}/{{{{moduleName}}}}` to the `modules` section of `nuxt.config.ts`
 
 ```typescript
 export default defineNuxtConfig({
   modules: [
-    '{{{{npmOrganization}}}}/{{{{moduleName}}}}'
+    '{{{{npmOrganizationName}}}}/{{{{moduleName}}}}'
   ],
   {{{{moduleConfigKey}}}}: {
     // @TODO

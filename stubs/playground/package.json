@@ -1,4 +1,4 @@
 {
   "private": true,
-  "name": "{{{{npmOrganization}}}}/{{{{moduleName}}}}-playground"
+  "name": "{{{{npmOrganizationName}}}}/{{{{moduleName}}}}-playground"
 }
