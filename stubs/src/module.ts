@@ -16,13 +16,11 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {},
   setup(_options, _nuxt) {
     // const resolver = createResolver(import.meta.url);
-
     // addComponent({
     //   name: "TrustupIoToasteo",
     //   export: "NotificationContainer",
     //   filePath: "@deegital/vue-trustup-io-toasteo",
     // });
-
     // addImports({
     //   name: "useToasteo",
     //   from: "@deegital/vue-trustup-io-toasteo",

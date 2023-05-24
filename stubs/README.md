@@ -3,11 +3,13 @@
 {{{{description}}}}
 
 ## Installation
+
 ```shell
 yarn add {{{{npmOrganization}}}}/{{{{moduleName}}}}
 ```
 
 Add `{{{{npmOrganization}}}}/{{{{moduleName}}}}` to the `modules` section of `nuxt.config.ts`
+
 ```typescript
 export default defineNuxtConfig({
   modules: [
@@ -22,11 +24,13 @@ export default defineNuxtConfig({
 That's it! You can now use {{{{moduleName}}}} in your Nuxt app ✨
 
 ## Usage
+
 ```typescript
 // @TODO
 ```
 
 ## Development
+
 ```shell
 ./cli bootstrap #bootstrap project
 ./cli start #start project

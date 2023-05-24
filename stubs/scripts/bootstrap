@@ -10,4 +10,6 @@ docker run \
   yarn install && \
 docker-compose build --no-cache
 
+npx husky install
+
 cd scripts
