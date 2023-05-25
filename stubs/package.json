@@ -6,7 +6,7 @@
     "dist"
   ],
   "main": "./dist/module.cjs",
-  "module": "./dist/index.js",
+  "module": "./dist/module.js",
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
