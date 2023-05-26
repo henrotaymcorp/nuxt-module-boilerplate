@@ -1,5 +1,11 @@
 # @henrotaymcorp/nuxt-module-boilerplate
 
+## 0.0.4
+
+### Patch Changes
+
+- f8889b1: Wrong filename for dist module entry.
+
 ## 0.0.3
 
 ### Patch Changes
