@@ -1,5 +1,11 @@
 # @henrotaymcorp/nuxt-module-boilerplate
 
+## 0.0.5
+
+### Patch Changes
+
+- eb1b301: Moving to vue 3.3 & nuxt 3.6
+
 ## 0.0.4
 
 ### Patch Changes
