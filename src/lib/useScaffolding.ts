@@ -58,10 +58,6 @@ const useScaffolding = () => {
     "mathieu.henrotay@gmail.com"
   );
 
-  const playgroundPort = usePrompt(`Playground port [3000]`, "3000");
-
-  const vitePort = usePrompt(`Playground vite port [24678]`, "24678");
-
   const data = {
     githubOrganizationName,
     npmOrganizationName,
@@ -70,8 +66,6 @@ const useScaffolding = () => {
     description,
     authorName,
     authorEmail,
-    playgroundPort,
-    vitePort,
   };
 
   useDisplayJson({ location, ...data });
