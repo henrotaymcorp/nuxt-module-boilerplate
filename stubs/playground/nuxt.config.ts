@@ -2,7 +2,10 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 export default defineNuxtConfig({
-  modules: ["../src/module"],
+  modules: [
+    "@nuxt/devtools",
+    "../src/module",
+  ],
   {{{{moduleConfigKey}}}}: {
     // @TODO
   },
