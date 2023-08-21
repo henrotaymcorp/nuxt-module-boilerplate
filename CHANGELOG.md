@@ -1,5 +1,11 @@
 # @henrotaymcorp/nuxt-module-boilerplate
 
+## 0.0.6
+
+### Patch Changes
+
+- 32a5464: Adding doppler synchronized secrets.
+
 ## 0.0.5
 
 ### Patch Changes
