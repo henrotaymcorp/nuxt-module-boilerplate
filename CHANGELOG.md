@@ -1,5 +1,11 @@
 # @henrotaymcorp/nuxt-module-boilerplate
 
+## 0.0.7
+
+### Patch Changes
+
+- 555afd5: Updating to new nuxt version.
+
 ## 0.0.6
 
 ### Patch Changes
