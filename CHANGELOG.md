@@ -1,5 +1,11 @@
 # @henrotaymcorp/nuxt-module-boilerplate
 
+## 0.0.8
+
+### Patch Changes
+
+- 7af6d6c: Correcting scripts path & getting environments commons.
+
 ## 0.0.7
 
 ### Patch Changes
