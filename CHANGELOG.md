@@ -1,5 +1,11 @@
 # @henrotaymcorp/nuxt-module-boilerplate
 
+## 0.0.9
+
+### Patch Changes
+
+- af18dfa: Forcing load balancer port.
+
 ## 0.0.8
 
 ### Patch Changes
