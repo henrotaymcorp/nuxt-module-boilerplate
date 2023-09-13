@@ -17,6 +17,7 @@ services:
       - traefik.enable=true
       - traefik.http.routers.{{{{moduleName}}}}.tls=true
       - traefik.http.routers.{{{{moduleName}}}}.rule=Host("{{{{moduleName}}}}.docker.localhost")
+      - traefik.http.services.{{{{moduleName}}}}.loadbalancer.server.port=${APP_PORT:-3000}
     networks:
       - applications
 networks:
