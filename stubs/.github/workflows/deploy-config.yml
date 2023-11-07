@@ -24,12 +24,19 @@ jobs:
         uses: actions/checkout@v3
       - name: Install Terraform
         uses: hashicorp/setup-terraform@v2
-      - name: Terraform init
+      -         
+        name: Install Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: ~1.5.7
+      -
+        name: Terraform init
         run: |
           terraform init \
             -backend-config="access_key=${{ secrets.DIGITALOCEAN_SPACES_ACCESS_KEY_ID }}" \
             -backend-config="secret_key=${{ secrets.DIGITALOCEAN_SPACES_SECRET_ACCESS_KEY }}" \
             -backend-config="bucket=${{ secrets.DIGITALOCEAN_SPACES_TERRAFORM_STATES_BUCKET }}" \
             -backend-config="key=${{ github.event.repository.name }}-environments-main.tfstate"
-      - name: Terraform apply
+      - 
+        name: Terraform apply
         run: terraform apply -auto-approve
