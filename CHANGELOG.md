@@ -1,5 +1,11 @@
 # @henrotaymcorp/nuxt-module-boilerplate
 
+## 0.0.11
+
+### Patch Changes
+
+- d89edd4: Upgrading to nuxt 3.8 (Forcing node 18).
+
 ## 0.0.10
 
 ### Patch Changes
