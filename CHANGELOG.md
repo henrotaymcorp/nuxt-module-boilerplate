@@ -1,5 +1,13 @@
 # @henrotaymcorp/nuxt-module-boilerplate
 
+## 0.0.10
+
+### Patch Changes
+
+- 2fde7f5: Adding root docker integration alias
+- 97dd1bb: Adding docker dependencies.
+- f489c7b: Fixing doppler config deployment.
+
 ## 0.0.9
 
 ### Patch Changes
